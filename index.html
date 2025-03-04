@@ -19,8 +19,6 @@
             </div>
         </div>
     </header>
-    <div class="content" id="content">
-    <div class="blur" id="blur"></div>
     <div class="coupon">
         <img src="A Valéria terézia elmélet.jpg" alt="Kép" class="coupon-image">
         <div class="coupon-text">
@@ -77,7 +75,6 @@
             <img src="Másolás.png" alt="Másolás ikon" class="copy-icon" onclick="copyToClipboard(this)">
         </li>
     </ul>
-    </div>
 
     <footer>
         <p>Készítette: A te neved</p>
@@ -86,17 +83,6 @@
     </footer>
 
     <script>
-const blurEndTime = new Date('2025-03-03T16:00:00+01:00').getTime();
-
-// Check the current time every second
-const interval = setInterval(() => {
-    const now = new Date().getTime();
-    if (now >= blurEndTime) {
-        document.getElementById('blur').style.backdropFilter = 'none';
-        document.getElementById('blur').style.webkitBackdropFilter = 'none'; // Safari
-        clearInterval(interval);
-    }
-}, 1000);
         function copyToClipboard(element) {
             const text = element.parentElement.innerText;
             const additionalText = "- Beluszky";
