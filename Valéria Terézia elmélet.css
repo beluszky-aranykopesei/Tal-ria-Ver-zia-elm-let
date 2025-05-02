@@ -274,3 +274,17 @@ button {
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 999;
 }
+
+a {
+    color: #0093af;
+}
+
+.creativecommons{
+    height: 15px;
+    margin-left: 3px;
+    vertical-align: middle;
+}
+
+.cc-p {
+    margin: 0;
+}
