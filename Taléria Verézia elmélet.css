@@ -305,7 +305,6 @@ a {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    height: 75px;
     display: flex;
     gap: 10px;
 }
@@ -327,6 +326,8 @@ a {
 
 .leall {
     margin-left: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .legfrissebb {
